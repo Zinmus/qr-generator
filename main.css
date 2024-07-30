@@ -1,0 +1,52 @@
+body, html {
+    margin: 0
+}
+
+body {
+    background-color: #2f2f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main-container {
+    background-color: #1f1f1f;
+    color: #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#input {
+    background-color: #2f2f2f;
+    color: #CCCCCC;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #8BB158;
+}
+
+#button {
+    background-color: #8BB158;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#button:hover, #input:hover {
+    opacity: 80%;
+}
+
+#input:focus {
+    opacity: 100%;
+}
+
+#button:active {
+    opacity: 50%;
+}
