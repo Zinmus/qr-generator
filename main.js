@@ -1,6 +1,6 @@
-var input = document.getElementById("input")
-var qrcode = new QRCode(document.getElementById("qrcode"), " ")
-var button = document.getElementById("button")
+const input = document.getElementById("input")
+const qrcode = new QRCode(document.getElementById("qrcode"), " ")
+const button = document.getElementById("button")
 
 button.addEventListener("click", () => {
     qrcode.clear()
